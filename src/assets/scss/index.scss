@@ -1,0 +1,8 @@
+@import 'variables.scss';
+
+@import 'font-awesome.scss';
+// 此处只引用bootstarp的样式，没有引入js，所有有关bootstrap的js调用将用其他方式(element-ui)替换，如modal，tooltip等
+@import "bootstrap.scss";
+@import 'element-ui.scss';
+
+@import 'reboot.scss';
